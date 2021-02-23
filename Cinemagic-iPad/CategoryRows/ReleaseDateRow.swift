@@ -38,7 +38,7 @@ class ReleaseDateRow: UITableViewCell, UICollectionViewDataSource,UICollectionVi
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
+        return 10
     }
 
     override func awakeFromNib() {

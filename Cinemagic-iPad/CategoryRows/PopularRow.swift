@@ -43,7 +43,7 @@ class PopularRow: UITableViewCell, UICollectionViewDataSource {
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
+        return 10
     }
     
     override func awakeFromNib() {

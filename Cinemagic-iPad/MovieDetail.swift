@@ -28,10 +28,23 @@ class MovieDetail: UIViewController {
             }
         }
         if item?.voteAverage != nil {
-            movieRate.text = "\(item.voteAverage!)"
+            let attachment = NSTextAttachment()
+            attachment.image = UIImage(named: "star")
+            let finalString = NSMutableAttributedString()
+            let attachmentString = NSAttributedString(attachment: attachment)
+            let myString = NSMutableAttributedString(string: "\(item.voteAverage!) ")
+            finalString.append(attachmentString)
+            finalString.append(myString)
+            movieRate.attributedText = finalString
         }
         if item?.releaseDate != nil {
-            movieDate.text = item.releaseDate
+            let attachment = NSTextAttachment()
+            attachment.image = UIImage(named: "calendar")
+            let attachmentString = NSAttributedString(attachment: attachment)
+            let myString = NSMutableAttributedString(string: item.releaseDate )
+            myString.append(attachmentString)
+            movieDate.attributedText = myString
+
         }
         if item?.overview == nil ||  item?.overview == ""{
             movieOverview.text = "There is no overview."

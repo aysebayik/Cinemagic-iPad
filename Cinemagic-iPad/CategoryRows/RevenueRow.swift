@@ -43,7 +43,7 @@ class RevenueRow: UITableViewCell , UICollectionViewDataSource{
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
+        return 10
     }
 //    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
 //        print("Selected: \(sourceData[indexPath.row].originalTitle)")

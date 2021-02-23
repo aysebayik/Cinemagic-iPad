@@ -208,3 +208,4 @@ extension MovieListController : UICollectionViewDelegateFlowLayout {
         splitViewController?.showDetailViewController(vc, sender: nil)
 
     }
+}

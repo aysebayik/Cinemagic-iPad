@@ -12,6 +12,9 @@
 		1526429225E4FE74007A9AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1526429025E4FE74007A9AC3 /* Main.storyboard */; };
 		1526429425E4FE76007A9AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1526429325E4FE76007A9AC3 /* Assets.xcassets */; };
 		152642BE25E50087007A9AC3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152642BC25E50087007A9AC3 /* Movie.swift */; };
+		158C016C25E5715A004BB4F5 /* Stanberry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158C016B25E5715A004BB4F5 /* Stanberry.ttf */; };
+		158C016F25E57167004BB4F5 /* Gamoda.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158C016E25E57167004BB4F5 /* Gamoda.ttf */; };
+		158C017225E57171004BB4F5 /* Pineapple Grass.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158C017125E57171004BB4F5 /* Pineapple Grass.ttf */; };
 		15BD2F7325E5069800524E3F /* PopularRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD2F7225E5069800524E3F /* PopularRow.swift */; };
 		15BD2F7925E506EA00524E3F /* CustomMovieCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD2F7825E506EA00524E3F /* CustomMovieCollectionCell.swift */; };
 		15BD2F7D25E5072700524E3F /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD2F7C25E5072700524E3F /* MovieListController.swift */; };
@@ -30,6 +33,9 @@
 		1526429325E4FE76007A9AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1526429825E4FE76007A9AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		152642BC25E50087007A9AC3 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = "../../../Cinemagic kopyası/Cinemagic/Structs/Movie.swift"; sourceTree = "<group>"; };
+		158C016B25E5715A004BB4F5 /* Stanberry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Stanberry.ttf; path = ../../../../../Downloads/Stanberry.ttf; sourceTree = "<group>"; };
+		158C016E25E57167004BB4F5 /* Gamoda.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Gamoda.ttf; path = ../../../../../Downloads/gamoda/Gamoda.ttf; sourceTree = "<group>"; };
+		158C017125E57171004BB4F5 /* Pineapple Grass.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pineapple Grass.ttf"; path = "../../../../../Downloads/pineapple_grass/Pineapple Grass.ttf"; sourceTree = "<group>"; };
 		15BD2F7225E5069800524E3F /* PopularRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRow.swift; sourceTree = "<group>"; };
 		15BD2F7825E506EA00524E3F /* CustomMovieCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMovieCollectionCell.swift; sourceTree = "<group>"; };
 		15BD2F7C25E5072700524E3F /* MovieListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListController.swift; sourceTree = "<group>"; };
@@ -75,6 +81,7 @@
 		1526428925E4FE74007A9AC3 /* Cinemagic-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				158C016A25E57144004BB4F5 /* Fonts */,
 				15BD2F7725E506C100524E3F /* MovieSide */,
 				15BD2F7125E5067600524E3F /* CategoryRows */,
 				152642BB25E5007A007A9AC3 /* Structs */,
@@ -93,6 +100,16 @@
 				152642BC25E50087007A9AC3 /* Movie.swift */,
 			);
 			path = Structs;
+			sourceTree = "<group>";
+		};
+		158C016A25E57144004BB4F5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				158C017125E57171004BB4F5 /* Pineapple Grass.ttf */,
+				158C016B25E5715A004BB4F5 /* Stanberry.ttf */,
+				158C016E25E57167004BB4F5 /* Gamoda.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		15BD2F7125E5067600524E3F /* CategoryRows */ = {
@@ -193,7 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1526429425E4FE76007A9AC3 /* Assets.xcassets in Resources */,
+				158C017225E57171004BB4F5 /* Pineapple Grass.ttf in Resources */,
+				158C016C25E5715A004BB4F5 /* Stanberry.ttf in Resources */,
 				1526429225E4FE74007A9AC3 /* Main.storyboard in Resources */,
+				158C016F25E57167004BB4F5 /* Gamoda.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
